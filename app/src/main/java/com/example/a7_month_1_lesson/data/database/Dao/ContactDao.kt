@@ -2,6 +2,9 @@ package com.example.a7_month_1_lesson.data.database.Dao
 
 import androidx.room.*
 import com.example.a7_month_1_lesson.data.model.Contact
+import com.example.a7_month_1_lesson.domain.models.ContactEntity
+import com.example.a7_month_1_lesson.domain.utils.Resource
+import java.util.concurrent.Flow
 
 interface ContactDao {
 

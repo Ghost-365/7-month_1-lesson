@@ -5,7 +5,7 @@ import com.example.a7_month_1_lesson.data.database.Dao.ContactDao
 import com.example.a7_month_1_lesson.data.model.Contact
 
 @Database(entities = [Contact::class],[], 1)
-abstract class RoomDatabase {
+abstract class ContactDatabase {
 
     abstract fun getContactDao() : ContactDao
 }
