@@ -1,4 +1,4 @@
-package com.example.a7_month_1_lesson.di
+package com.example.a7_month_1_lesson.data.mappers.di
 
 import android.content.Context
 import androidx.room.Room
@@ -6,7 +6,7 @@ import androidx.room.RoomDatabase
 import com.example.a7_month_1_lesson.data.database.ContactDatabase
 import com.example.a7_month_1_lesson.data.database.Dao.ContactDao
 import com.example.a7_month_1_lesson.data.repositories.ContactRepositoryImpl
-import com.example.a7_month_1_lesson.domain.repositories.ContactRepository
+import com.example.a7_month_1_lesson.domain.usecases.repositories.ContactRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

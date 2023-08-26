@@ -3,8 +3,6 @@ package com.example.a7_month_1_lesson.data.database.Dao
 import androidx.room.*
 import com.example.a7_month_1_lesson.data.model.Contact
 import com.example.a7_month_1_lesson.domain.models.ContactEntity
-import com.example.a7_month_1_lesson.domain.utils.Resource
-import java.util.concurrent.Flow
 
 interface ContactDao {
 
@@ -12,11 +10,11 @@ interface ContactDao {
     suspend fun getContacts() : List<Contact>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun createContact(contact: Contact)
+    suspend fun createContact(contact: ContactEntity)
 
     @Update
-    suspend fun updateContact(contact: Contact)
+    suspend fun updateContact(contact: ContactEntity)
 
     @Delete
-    suspend fun deleteContact(contact: Contact)
+    suspend fun deleteContact(contact: ContactEntity)
 }

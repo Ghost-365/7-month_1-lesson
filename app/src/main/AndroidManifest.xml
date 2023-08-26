@@ -13,7 +13,7 @@
         android:theme="@style/Theme.7month_1lesson"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name="com.example.a7_month_1_lesson.presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

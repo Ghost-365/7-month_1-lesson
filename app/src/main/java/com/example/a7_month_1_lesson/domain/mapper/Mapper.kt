@@ -1,4 +1,4 @@
-package com.example.a7_month_1_lesson.domain.mapper
+package com.example.a7_month_1_lesson.data.mapper
 
 import com.example.a7_month_1_lesson.data.model.Contact
 import com.example.a7_month_1_lesson.domain.models.ContactEntity
