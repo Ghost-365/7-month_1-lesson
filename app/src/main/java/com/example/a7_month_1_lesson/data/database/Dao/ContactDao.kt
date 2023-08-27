@@ -2,7 +2,6 @@ package com.example.a7_month_1_lesson.data.database.Dao
 
 import androidx.room.*
 import com.example.a7_month_1_lesson.data.model.Contact
-import com.example.a7_month_1_lesson.domain.models.ContactEntity
 
 interface ContactDao {
 
@@ -10,11 +9,11 @@ interface ContactDao {
     suspend fun getContacts() : List<Contact>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun createContact(contact: ContactEntity)
+    suspend fun createContact(contact: Contact)
 
     @Update
-    suspend fun updateContact(contact: ContactEntity)
+    suspend fun updateContact(contact: Contact)
 
     @Delete
-    suspend fun deleteContact(contact: ContactEntity)
+    suspend fun deleteContact(contact: Contact)
 }

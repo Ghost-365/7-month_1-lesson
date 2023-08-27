@@ -1,4 +1,4 @@
-package com.example.a7_month_1_lesson.domain.utils
+package com.example.a7_month_1_lesson.domain.usecases.utils
 
 import android.webkit.ConsoleMessage
 
