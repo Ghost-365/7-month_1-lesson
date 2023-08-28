@@ -7,7 +7,7 @@ import com.example.a7_month_1_lesson.domain.usecases.CreateContactUseCase
 import com.example.a7_month_1_lesson.domain.usecases.DeleteContactUseCase
 import com.example.a7_month_1_lesson.domain.usecases.GetContactUseCase
 import com.example.a7_month_1_lesson.domain.usecases.UpdateConstantUseCase
-import com.example.a7_month_1_lesson.domain.usecases.utils.UiState
+import com.example.a7_month_1_lesson.data.utils.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

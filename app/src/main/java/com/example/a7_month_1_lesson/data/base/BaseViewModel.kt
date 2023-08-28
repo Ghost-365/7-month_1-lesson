@@ -2,8 +2,8 @@ package com.example.a7_month_1_lesson.data.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.a7_month_1_lesson.domain.usecases.utils.Resource
-import com.example.a7_month_1_lesson.domain.usecases.utils.UiState
+import com.example.a7_month_1_lesson.data.utils.Resource
+import com.example.a7_month_1_lesson.data.utils.UiState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch

@@ -9,7 +9,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.example.a7_month_1_lesson.data.base.BaseActivity
 import com.example.a7_month_1_lesson.data.model.Contact
 import com.example.a7_month_1_lesson.domain.models.ContactEntity
-import com.example.a7_month_1_lesson.domain.usecases.utils.UiState
+import com.example.a7_month_1_lesson.data.utils.UiState
 import com.example.homework_1_month7.R
 import com.example.homework_1_month7.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint

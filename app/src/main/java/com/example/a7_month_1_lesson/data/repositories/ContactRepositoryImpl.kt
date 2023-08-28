@@ -6,7 +6,7 @@ import com.example.a7_month_1_lesson.data.mappers.mapToContactEntity
 import com.example.a7_month_1_lesson.data.model.Contact
 import com.example.a7_month_1_lesson.domain.models.ContactEntity
 import com.example.a7_month_1_lesson.domain.usecases.repositories.ContactRepository
-import com.example.a7_month_1_lesson.domain.usecases.utils.Resource
+import com.example.a7_month_1_lesson.data.utils.Resource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

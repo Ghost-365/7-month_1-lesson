@@ -1,4 +1,4 @@
-package com.example.a7_month_1_lesson.domain.usecases.utils
+package com.example.a7_month_1_lesson.data.utils
 
 sealed class UiState<T> {
 

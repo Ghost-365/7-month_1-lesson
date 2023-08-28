@@ -21,15 +21,19 @@ object DiModule {
 
     @Singleton
     @Provides
-    fun provideRoomDataBase(
+    fun provideCountryDatabase(
         @ApplicationContext context: Context
-    ) =
-        Room.databaseBuilder(
-            context,
-            RoomDatabase::class.java,
-            "contact"
-        ).build()
+    ): com.example.homework_1_month7.data.local.CountryDataBase = Room.databaseBuilder(
+        context,
+        com.example.homework_1_month7.data.local.CountryDataBase::class.java,
+        "note_db"
+    ).build()
 
+    @Singleton
+    @Provides
+    fun provideCountryDao(contactDatabase: ContactDatabase) = contactDatabase.getContactDao()
+
+    @Singleton
     @Provides
     fun provideContactDao(contactDatabase: ContactDatabase) =
         contactDatabase.getContactDao()
